@@ -94,7 +94,6 @@ function clear(){
  url.value = "";
 }
 
-
 function checkValidate(){
     if(validateUrl() && validateName()){
        return true;

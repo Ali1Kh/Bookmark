@@ -11,7 +11,7 @@ body{
 .title{
     width: fit-content;
     font-family: 'Pacifico', cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 .title::before{
     content: "";
@@ -34,4 +34,10 @@ body{
 .form-control:focus:not(.is-valid,.is-invalid){
     border-color: #d99c39e0 !important;
     box-shadow: 0 0 0 2.5px var(--mainColor) !important;
+}
+
+@media screen  and (width<600px) {
+    html{
+        font-size: 12px;
+    }
 }
